@@ -1,0 +1,19 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: rgb(235, 232, 232);
+}
+.p1 {
+    text-align: center;
+    font-size: 28px;
+    font-family: "calibri";
+    text-transform:uppercase ;
+}
+.parent1{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
